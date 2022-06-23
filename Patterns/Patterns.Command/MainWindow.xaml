@@ -1,0 +1,40 @@
+﻿<Window x:Class="Patterns.Command.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Patterns.Command"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="DisplaySynonymsButton" Content="Вывести синонимы" Margin="0,36,10,0" VerticalAlignment="Top" RenderTransformOrigin="-0.733,-1.033" Click="DisplaySynonymsButton_Click" Height="23" IsEnabled="True" HorizontalAlignment="Right" Width="110"/>
+        <Menu Height="25" Margin="10,6,10,0" VerticalAlignment="Top">
+            <MenuItem x:Name="Actions" Background="#FFDDDDDD" Header="Действия" Focusable="False" Height="25" Width="70">
+                <Button x:Name="DisplaySynonymsMenuItem" Content="Вывести синонимы" BorderBrush="#FFF0F0F0" Click="DisplaySynonymsMenuItem_Click" Background="#FFF0F0F0"/>
+                <Button x:Name="ClearSynonymsMenuItem" Content="Очистить список" BorderBrush="#FFF0F0F0" Click="ClearSynonymsMenuItem_Click" Background="#FFF0F0F0"/>
+            </MenuItem>
+            <MenuItem x:Name="ActionsWithView" Background="#FFDDDDDD" Header="Представление">
+                <Button x:Name="RandomRecolorMenuItem" Click="RandomRecolorMenuItem_Click" Background="#FFF0F0F0" BorderBrush="#FFF0F0F0" Width="150">
+                    <Button.Content>
+                        <TextBlock TextWrapping="Wrap" HorizontalAlignment="Stretch">Перекрасить последний эл. управления</TextBlock>
+                    </Button.Content>
+                </Button>
+            </MenuItem>
+        </Menu>
+        <TextBox x:Name="TextBox" Height="23" Margin="10,36,125,0" TextWrapping="Wrap" VerticalAlignment="Top" SpellCheck.IsEnabled="True"/>
+        <ListBox x:Name="SynonymsListBox" Margin="10,64,125,10"/>
+        <Button x:Name="ClearSynonymsButton" Content="Очистить список" Margin="0,64,10,0" VerticalAlignment="Top" Click="ClearSynonymsButton_Click" HorizontalAlignment="Right" Width="110"/>
+        <Button x:Name="RandomRecolorButton" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="0,0,10,10" Click="RandomRecolorButton_Click" Height="56" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="110">
+            <Button.Content>
+                <TextBlock TextWrapping="Wrap" HorizontalAlignment="Stretch">Перекрасить последний эл. управления</TextBlock>
+            </Button.Content>
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                    <GradientStop Color="#FF648EAC" Offset="0.011"/>
+                    <GradientStop Color="#FFD166A5" Offset="0.981"/>
+                    <GradientStop Color="#FF8C7DBD" Offset="0.291"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+    </Grid>
+</Window>

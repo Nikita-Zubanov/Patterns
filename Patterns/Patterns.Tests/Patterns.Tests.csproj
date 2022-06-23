@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3EFDE4A8-072F-44A3-96A3-EB9F3F6B0019}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Patterns.Tests</RootNamespace>
+    <AssemblyName>Patterns.Tests</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">15.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    <ReferencePath>$(ProgramFiles)\Common Files\microsoft shared\VSTT\$(VisualStudioVersion)\UITestExtensionPackages</ReferencePath>
+    <IsCodedUITest>False</IsCodedUITest>
+    <TestProjectType>UnitTest</TestProjectType>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Patterns.Tests.Prototype\RandomArrayTest.cs" />
+    <Compile Include="Patterns.Tests.State\StateTest.cs" />
+    <Compile Include="Patterns.Tests.Iterator\PlaylistTest.cs" />
+    <Compile Include="Patterns.Tests.Mediator\ChatsMediatorTest.cs" />
+    <Compile Include="Patterns.Tests.UnitOfWork\DbContexts\ShopDbContext.cs" />
+    <Compile Include="Patterns.Tests.UnitOfWork\Entities\Product.cs" />
+    <Compile Include="Patterns.Tests.UnitOfWork\Entities\User.cs" />
+    <Compile Include="Patterns.Tests.UnitOfWork\Services\SqlExecutorStub.cs" />
+    <Compile Include="Patterns.Tests.UnitOfWork\UnitOfWorkTest.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Norbit.Crm.CareerGoal.Patterns.Iterator\Patterns.Iterator.csproj">
+      <Project>{000356f6-2eb1-4a67-8a95-1ab8f217d517}</Project>
+      <Name>Patterns.Iterator</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Norbit.Crm.CareerGoal.Patterns.Mediator\Patterns.Mediator.csproj">
+      <Project>{0750613b-bf77-4b2a-a481-3468a9c3a9f1}</Project>
+      <Name>Patterns.Mediator</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Norbit.Crm.CareerGoal.Patterns.Prototype\Patterns.Prototype.csproj">
+      <Project>{CE30C17E-8809-44DC-9D7C-A43D88A65F5A}</Project>
+      <Name>Patterns.Prototype</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Norbit.Crm.CareerGoal.Patterns.State\Patterns.State.csproj">
+      <Project>{b09a83d3-9f51-43ad-963e-1ba090341498}</Project>
+      <Name>Patterns.State</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Norbit.Crm.CareerGoal.Patterns.UnitOfWork\Patterns.UnitOfWork.csproj">
+      <Project>{38ed1596-5d41-442e-b24d-9314bcebaf66}</Project>
+      <Name>Patterns.UnitOfWork</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Moq">
+      <Version>4.17.2</Version>
+    </PackageReference>
+    <PackageReference Include="MSTest.TestAdapter">
+      <Version>2.1.2</Version>
+    </PackageReference>
+    <PackageReference Include="MSTest.TestFramework">
+      <Version>2.1.2</Version>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

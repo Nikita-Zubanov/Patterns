@@ -58,23 +58,23 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Norbit.Crm.CareerGoal.Patterns.Iterator\Patterns.Iterator.csproj">
+    <ProjectReference Include="..\Patterns.Iterator\Patterns.Iterator.csproj">
       <Project>{000356f6-2eb1-4a67-8a95-1ab8f217d517}</Project>
       <Name>Patterns.Iterator</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Norbit.Crm.CareerGoal.Patterns.Mediator\Patterns.Mediator.csproj">
+    <ProjectReference Include="..\Patterns.Mediator\Patterns.Mediator.csproj">
       <Project>{0750613b-bf77-4b2a-a481-3468a9c3a9f1}</Project>
       <Name>Patterns.Mediator</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Norbit.Crm.CareerGoal.Patterns.Prototype\Patterns.Prototype.csproj">
+    <ProjectReference Include="..\Patterns.Prototype\Patterns.Prototype.csproj">
       <Project>{CE30C17E-8809-44DC-9D7C-A43D88A65F5A}</Project>
       <Name>Patterns.Prototype</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Norbit.Crm.CareerGoal.Patterns.State\Patterns.State.csproj">
+    <ProjectReference Include="..\Patterns.State\Patterns.State.csproj">
       <Project>{b09a83d3-9f51-43ad-963e-1ba090341498}</Project>
       <Name>Patterns.State</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Norbit.Crm.CareerGoal.Patterns.UnitOfWork\Patterns.UnitOfWork.csproj">
+    <ProjectReference Include="..\Patterns.UnitOfWork\Patterns.UnitOfWork.csproj">
       <Project>{38ed1596-5d41-442e-b24d-9314bcebaf66}</Project>
       <Name>Patterns.UnitOfWork</Name>
     </ProjectReference>

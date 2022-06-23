@@ -3,35 +3,35 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patterns.AbstractFactory", "..\..\..\OneDrive\Рабочий стол\n.zubanov\Patterns\Norbit.Crm.CareerGoal.Patterns.AbstractFactory\Patterns.AbstractFactory.csproj", "{C915A2D6-1B58-49AF-9CF2-7B04349DDFDA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patterns.AbstractFactory", "Patterns\Patterns.AbstractFactory\Patterns.AbstractFactory.csproj", "{C915A2D6-1B58-49AF-9CF2-7B04349DDFDA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patterns.Adapter", "..\..\..\OneDrive\Рабочий стол\n.zubanov\Patterns\Norbit.Crm.CareerGoal.Patterns.Adapter\Patterns.Adapter.csproj", "{BA17CED1-7926-4B2D-A5F9-56767F5C578E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patterns.Adapter", "Patterns\Patterns.Adapter\Patterns.Adapter.csproj", "{BA17CED1-7926-4B2D-A5F9-56767F5C578E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patterns.Builder", "..\..\..\OneDrive\Рабочий стол\n.zubanov\Patterns\Norbit.Crm.CareerGoal.Patterns.Builder\Patterns.Builder.csproj", "{0DF3810C-8A86-48ED-AC49-A17D9D5CE1BE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patterns.Builder", "Patterns\Patterns.Builder\Patterns.Builder.csproj", "{0DF3810C-8A86-48ED-AC49-A17D9D5CE1BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patterns.Command", "..\..\..\OneDrive\Рабочий стол\n.zubanov\Patterns\Norbit.Crm.CareerGoal.Patterns.Command\Patterns.Command.csproj", "{32BD597A-4123-4F0E-9014-19D5F4AE7BDA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patterns.Command", "Patterns\Patterns.Command\Patterns.Command.csproj", "{32BD597A-4123-4F0E-9014-19D5F4AE7BDA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patterns.Decorator", "..\..\..\OneDrive\Рабочий стол\n.zubanov\Patterns\Norbit.Crm.CareerGoal.Patterns.Decorator\Patterns.Decorator.csproj", "{639FB1EF-2AE6-41A6-894E-081EDD077A1B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patterns.Decorator", "Patterns\Patterns.Decorator\Patterns.Decorator.csproj", "{639FB1EF-2AE6-41A6-894E-081EDD077A1B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patterns.Iterator", "..\..\..\OneDrive\Рабочий стол\n.zubanov\Patterns\Norbit.Crm.CareerGoal.Patterns.Iterator\Patterns.Iterator.csproj", "{000356F6-2EB1-4A67-8A95-1AB8F217D517}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patterns.Iterator", "Patterns\Patterns.Iterator\Patterns.Iterator.csproj", "{000356F6-2EB1-4A67-8A95-1AB8F217D517}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patterns.Mediator", "..\..\..\OneDrive\Рабочий стол\n.zubanov\Patterns\Norbit.Crm.CareerGoal.Patterns.Mediator\Patterns.Mediator.csproj", "{0750613B-BF77-4B2A-A481-3468A9C3A9F1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patterns.Mediator", "Patterns\Patterns.Mediator\Patterns.Mediator.csproj", "{0750613B-BF77-4B2A-A481-3468A9C3A9F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patterns.Observer", "..\..\..\OneDrive\Рабочий стол\n.zubanov\Patterns\Norbit.Crm.CareerGoal.Patterns.Observer\Patterns.Observer.csproj", "{372EECF1-A0FC-433E-A6B1-8611EBE7ED80}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patterns.Observer", "Patterns\Patterns.Observer\Patterns.Observer.csproj", "{372EECF1-A0FC-433E-A6B1-8611EBE7ED80}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patterns.Prototype", "..\..\..\OneDrive\Рабочий стол\n.zubanov\Patterns\Norbit.Crm.CareerGoal.Patterns.Prototype\Patterns.Prototype.csproj", "{CE30C17E-8809-44DC-9D7C-A43D88A65F5A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patterns.Prototype", "Patterns\Patterns.Prototype\Patterns.Prototype.csproj", "{CE30C17E-8809-44DC-9D7C-A43D88A65F5A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patterns.Singleton", "..\..\..\OneDrive\Рабочий стол\n.zubanov\Patterns\Norbit.Crm.CareerGoal.Patterns.Singleton\Patterns.Singleton.csproj", "{65236620-2242-4D40-BC96-B8857B5EF2D3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patterns.Singleton", "Patterns\Patterns.Singleton\Patterns.Singleton.csproj", "{65236620-2242-4D40-BC96-B8857B5EF2D3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patterns.State", "..\..\..\OneDrive\Рабочий стол\n.zubanov\Patterns\Norbit.Crm.CareerGoal.Patterns.State\Patterns.State.csproj", "{B09A83D3-9F51-43AD-963E-1BA090341498}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patterns.State", "Patterns\Patterns.State\Patterns.State.csproj", "{B09A83D3-9F51-43AD-963E-1BA090341498}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patterns.Strategy", "..\..\..\OneDrive\Рабочий стол\n.zubanov\Patterns\Norbit.Crm.CareerGoal.Patterns.Strategy\Patterns.Strategy.csproj", "{59A399D0-1D74-4002-8B84-D45C35560DBC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patterns.Strategy", "Patterns\Patterns.Strategy\Patterns.Strategy.csproj", "{59A399D0-1D74-4002-8B84-D45C35560DBC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patterns.Tests", "..\..\..\OneDrive\Рабочий стол\n.zubanov\Patterns\Norbit.Crm.CareerGoal.Patterns.Tests\Patterns.Tests.csproj", "{3EFDE4A8-072F-44A3-96A3-EB9F3F6B0019}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patterns.Tests", "Patterns\Patterns.Tests\Patterns.Tests.csproj", "{3EFDE4A8-072F-44A3-96A3-EB9F3F6B0019}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patterns.UnitOfWork", "..\..\..\OneDrive\Рабочий стол\n.zubanov\Patterns\Norbit.Crm.CareerGoal.Patterns.UnitOfWork\Patterns.UnitOfWork.csproj", "{38ED1596-5D41-442E-B24D-9314BCEBAF66}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patterns.UnitOfWork", "Patterns\Patterns.UnitOfWork\Patterns.UnitOfWork.csproj", "{38ED1596-5D41-442E-B24D-9314BCEBAF66}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patterns.Visitor", "..\..\..\OneDrive\Рабочий стол\n.zubanov\Patterns\Norbit.Crm.CareerGoal.Patterns.Visitor\Patterns.Visitor.csproj", "{F3134DFF-2307-48CB-9D84-109F5FDD22F1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patterns.Visitor", "Patterns\Patterns.Visitor\Patterns.Visitor.csproj", "{F3134DFF-2307-48CB-9D84-109F5FDD22F1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
